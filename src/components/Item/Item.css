@@ -1,0 +1,61 @@
+.card__dolares {
+    text-align: center;
+    width: 300px;
+    border: solid;
+    border-radius: 5px;
+    border-color: greenyellow;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.dolarNombre {
+    font-size: 30px;
+    color: greenyellow;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.dolarPrecio {
+    font-size: 25px;
+    color: greenyellow;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.dolarFoto {
+    height: 200px;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: yellowgreen;
+}
+
+.mas {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 14.8%;
+}
+
+.mas:hover {
+    transform: scale(1.2);
+}
+
+.detalle {
+    background-color: greenyellow;
+    border: solid;
+    border-color:greenyellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.detalle:hover {
+    transform: scale(1.1);
+}

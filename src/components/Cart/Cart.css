@@ -1,0 +1,137 @@
+.cart {
+    min-height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.volver {
+    background-color: #282c34;
+    color: greenyellow;
+    border: solid;
+    border-color: greenyellow;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.volver:hover {
+    transform: scale(1.1);
+}
+
+.vacio {
+    font-size: 30px;
+    margin-top: 40px;
+    color: #548aff;
+}
+
+.spinner {
+    margin-top: 50px;
+}
+
+.botonesCart {
+    font-family: sans-serif;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: greenyellow;
+}
+
+.botonesCart:hover {
+    background-color: #548aff;
+    color: black;
+}
+
+.tablaNombres {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: black;
+}
+
+#tablaNombres {
+    padding-bottom: 15px;
+}
+
+.tablaNombres p {
+    margin-left: 10%;
+    width: 10%;
+}
+
+.contenedortabla {
+    border-bottom: solid;
+    border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tabla p {
+    margin-left: 10%;
+    width: 10%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.tabla button {
+    margin-left: 10%;
+}
+
+.sub {
+    margin-left: 10%;
+    width: 10%;
+padding-bottom: 3px;
+}
+
+.compraExitosa {
+    font-size: 30px;
+    margin-top: 50px;
+    color: #548aff;
+}
+
+.gracias{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #548aff;
+}
+
+.idCompra {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #548aff;
+}
+
+.sumaResta {
+    min-width: 15px;
+}
+
+#resta {
+    margin-right: 6px;
+    margin-left: 0px;
+}
+
+#suma {
+    margin-left: 7px;
+}

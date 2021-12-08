@@ -1,0 +1,144 @@
+.encabezado__index {
+    background-color: greenyellow;
+    margin: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 1010;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    position: relative;
+}
+
+.encabezado__logo {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 25%;
+    padding-top: 0;
+    padding-bottom: 5px;
+    transform: rotate(-15deg);
+    text-align: left;
+}
+
+.encabezado__nombre {
+    color: #548aff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Dela Gothic One", cursive;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    z-index: 100;
+}
+
+.encabezado__subnombre {
+    color: #548aff;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 43px;
+    padding-top: 0;
+    font-family: "Dela Gothic One", cursive;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    letter-spacing: 0.2em;
+    word-spacing: 0.25em;
+    z-index: 100;
+}
+
+.menu__items--font {
+    background-color: #548aff;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-right: 5%;
+    width: 100%;
+    text-align: right;
+    border-width: 2px;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+    position: sticky;
+    margin: 0px;
+    z-index: 100;
+    
+}
+
+.menu__items--font:hover {
+    color: #053191;
+    transition: all 1s;
+}
+
+ul.menu__items--font li .item {
+    position: relative;
+    margin-left: 15px;
+    margin-top: -35px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;  
+    color: greenyellow;
+    text-decoration: none;
+}
+
+ul.menu__items--font li .item:hover {
+    color: rgb(67, 95, 25);
+}
+
+li {
+    position: relative;
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: greenyellow;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    padding: 3px;
+}
+
+nav li ul {
+    background-color: transparent;
+}
+
+nav li ul li {
+    margin-bottom: 15px;
+}
+
+nav li ul li a {
+    margin-left: 15px;
+    background-color: #548aff;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    padding: 3px;
+}
+
+nav li ul li a:hover {
+    color: rgb(67, 95, 25);
+}
+
+ul li ul {
+    display:none;
+	position:absolute;
+    text-align: left;
+}
+
+ul li:hover ul {
+    display:block;
+}
+
+

@@ -31,7 +31,7 @@ Start the server
 
 ## Previsualizar
 
-https://github.com/Nahukre/EntregaFinal-ColchonBlue-AlejandroKreser/blob/main/src/img/gif.gif
+![alt-text](https://github.com/Nahukre/EntregaFinal-ColchonBlue-AlejandroKreser/blob/main/src/img/gif.gif)
 
 ## Autor
 Alejandro Kreser
